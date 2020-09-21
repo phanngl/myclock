@@ -3,8 +3,8 @@ import "package:vibration/vibration.dart";
 import 'package:quiver/async.dart';
 
 class Controller extends GetxController {
-  var count = 0.obs;
-  var isRunning = false.obs;
+  final count = 0.obs;
+  final isRunning = false.obs;
   CountdownTimer cdTimer;
 
   Controller() {
